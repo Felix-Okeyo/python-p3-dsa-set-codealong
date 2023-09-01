@@ -36,11 +36,8 @@ class TestSet:
         '''Test size()'''
         test_set = MySet([1,2,3,4])
         assert(len(test_set.dictionary) == 4)
-
-
-
+        
 # Bonus test
-"""
     def test_clear(self):
         '''Test clearing set'''
         test_set = MySet([1,2,3,4])
@@ -51,4 +48,3 @@ class TestSet:
         '''Test __str__()'''
         test_set = MySet([1,2,3,4])
         assert(str(test_set) == 'MySet: {1,2,3,4}')
-"""
